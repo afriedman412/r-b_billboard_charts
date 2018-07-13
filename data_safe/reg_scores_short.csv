@@ -1,0 +1,20 @@
+model,target,train,test
+Random Forest,both,0.984,0.646
+Random Forest + Grid Search,both,0.702,0.663
+SVC,both,0.924,0.633
+Linear SVC,both,0.618,0.631
+AdaBoost,both,0.653,0.658
+Logistric Regression,both,0.643,0.643
+XGBoost,both,0.674,0.680
+Random Forest,move,0.989,0.734
+SVC,move,0.919,0.763
+Linear SVC,move,0.670,0.677
+AdaBoost,move,0.758,0.757
+Logistric Regression,move,0.747,0.750
+XGBoost,move,0.770,0.767
+Random Forest,dir,0.770,0.763
+SVC,dir,0.981,0.816
+Linear SVC,dir,0.747,0.754
+AdaBoost,dir,0.845,0.845
+Logistric Regression,dir,0.827,0.840
+XGBoost,dir,0.854,0.852
