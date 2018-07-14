@@ -1,0 +1,13 @@
+data,target,model,notes,train,test,down precision,stay precision,up precision,down recall,stay recall,up recall,down f1,stay f1,up f1
+all data,move_2n,xgboost,scaled,0.639,0.638,0.72,0.54,0.61,0.66,0.24,0.87,0.69,0.34,0.72
+all data,move_2n,random forest,scaled,0.966,0.569,0.63,0.39,0.6,0.65,0.3,0.68,0.64,0.34,0.64
+all data,move_2n,knn,scaled,0.698,0.556,0.6,0.39,0.6,0.67,0.31,0.62,0.64,0.34,0.61
+all data,move_2n,sgd (mod_huber),scaled,0.596,0.594,0.68,0.46,0.56,0.68,0.16,0.8,0.68,0.24,0.66
+all data,move,xgboost,scaled / SMOTE,0.739,0.731,,0.46,0.79,,0.34,0.86,,0.39,0.83
+all data,move,random forest,scaled / SMOTE,0.978,0.685,,0.38,0.79,,0.37,0.79,,0.37,0.79
+all data,move,knn,scaled / SMOTE,0.759,0.603,,0.33,0.8,,0.53,0.63,,0.41,0.7
+all data,move,sgd (mod_huber),scaled / SMOTE,0.508,0.512,,0.28,0.77,,0.57,0.49,,0.37,0.6
+dir only,move_2n,xgboost,scaled,0.826,0.829,0.88,,0.8,0.72,,0.92,0.79,,0.85
+dir only,move_2n,random forest,scaled,0.984,0.799,0.79,,0.81,0.76,,0.83,0.77,,0.82
+dir only,move_2n,knn,scaled,0.848,0.797,0.81,,0.79,0.72,,0.86,0.76,,0.82
+dir only,move_2n,sgd (mod_huber),scaled,0.731,0.724,0.78,,0.69,0.57,,0.86,0.66,,0.77
