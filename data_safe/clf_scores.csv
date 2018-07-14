@@ -1,0 +1,5 @@
+model,train,test,up precision,stay precision,down precision,up recall,stay recall,down recall,up move f1,stay f1,down f1
+rfc,0.967,0.573,0.65,0.37,0.6,0.65,0.3,0.67,0.65,0.33,0.64
+xgbc,0.641,0.633,0.72,0.53,0.6,0.66,0.25,0.86,0.69,0.34,0.71
+adac,0.633,0.626,0.71,0.5,0.61,0.66,0.28,0.82,0.69,0.36,0.7
+lsvc,0.529,0.523,0.82,0.4,0.48,0.39,0.21,0.84,0.53,0.28,0.61
