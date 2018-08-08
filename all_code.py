@@ -20,8 +20,7 @@ from sklearn.metrics import confusion_matrix
 http = urllib3.PoolManager(cert_reqs='CERT_REQUIRED', ca_certs=certifi.where())
 
 # pull 'all_dates' for 'date_o'
-mt_73_90 = pd.read_csv('mega_track_73_90.csv')
-all_dates = mt_73_90['chart_date'].sort_values().drop_duplicates().values
+all_dates = pd.read_csv('data_safe/all_dates.csv')
 
 # set to print whole entries
 pd.set_option('display.max_colwidth', -1)
